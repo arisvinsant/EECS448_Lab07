@@ -1,0 +1,12 @@
+Aris Vinsant
+EECS 448 Lab 07 Write Up
+
+I found the following bugs using my test suite:
+
+1. isEmpty() always will return true even if the list is not empty. This bug caused many of the other methods that rely on it to have problems as well.
+
+2. size() did not properly adjust when items were added to the front or the back of the list. This is probably a result of the isEmpty() bug as well.
+
+3. addBack() did not actually add values to the back of the list.
+
+
